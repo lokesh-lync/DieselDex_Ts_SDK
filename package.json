@@ -1,0 +1,28 @@
+{
+  "name": "disel-dex-ts",
+  "version": "1.0.49",
+  "description": "TypeScript SDK for Disel DEX for Mainnet",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "prepare": "pnpm run build",
+    "pub": "pnpm publish --access public"
+  },
+  "keywords": [],
+  "author": "dieseldeployer@gmail.com",
+  "license": "ISC",
+  "peerDependencies": {
+    "fuels": "^0.96.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.2.2"
+  }
+}
