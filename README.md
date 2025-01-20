@@ -1,6 +1,6 @@
 # Diesel DEX TypeScript SDK
 
-Typescript SDK for [Diesel DEX](https://diesel.ly/) -
+Typescript SDK for [Diesel DEX](https://www.dieseldex.com/) -
 the Decentralized Exchange on [Fuel blockchain](https://fuel.network/).
 
 ## Table of contents
